@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="districtstyle.css">
+        <!-- bootstrap link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: aquamarine;">
+            <a class="navbar-brand" href="#"><img src="logo1.png" alt="logo" width="60px" height="42px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="margin-left: 475px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="district.html">Districts</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="signin.html">Sign In</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+   <p class="sign">Sign Up</p>
+     <form action="signin.html" onsubmit="return validation()">
+    <div class="register">
+        <p>Create your account with genuine information<br>
+        If you are already a member please <a href="signin.html">Sign In</a></p>
+        
+        <div class="form-group">
+            <label for="name">Name</label><br>
+            <input type="text" class="formcontrol" id="name" placeholder="Enter your name">
+            <span id="nameerror" class="text-danger font-weight-bold"></span>
+            </div>
+            <div class="form-group">
+            <label for="number">Mobile number</label>
+          <input type="text" class="form-control" id="number" placeholder="Enter your mobile number">
+            <span id="mobileerror" class="text- danger font-weight-bold"></span>
+            </div>
+            <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="text" class="form-control" id="email" placeholder="Enter your email">
+            <span id="emailerror" class="text-danger font-weight-bold"></span>
+            </div>
+            <div class="form-group">
+            <label for="password">Password</label><br>
+            <input type="password"  id="password" placeholder="Enter your password">
+            <small id="Help" class="form-text">**password must contain minimum 8 characters including atleast one uppercase, onelower case and one number.</small>
+            <span id="passworderror" class="text-danger font-weight-bold"></span>
+            </div>
+            <div class="wrap text-center">
+            <p class="strength" id="length"></p>
+            </div>
+            <div class="form-group">
+            <label for="confirmpwd">Confirm password</label><br>
+            <input type="password" class="form-control" id="cpassword" placeholder="Retype your password">
+            <span id="cpassworderror"class="text-danger font-weight-bold"></span>
+            </div>
+            <br>
+            <button type="submit" href="signin.html">Sign Up</button>
+        
+    </div>
+    </form>
+
+    <script src="signup.js"></script>
+</body>
+</html>

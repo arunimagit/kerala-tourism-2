@@ -1,0 +1,145 @@
+body{
+    width: 100%;
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #82a2ec, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 2rem;
+}
+
+ body >h1{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+
+/* sign up page */
+.register{
+    
+    width: 500px;
+    height: 560px;
+    background-color: rgb(161, 219, 161);
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 8px;
+   
+
+}
+.register p{
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+.register p a{
+    text-decoration: none;
+}
+.sign {
+    color: honeydew;
+    text-align: center;
+    font-size: 2rem;
+}
+.sigup{
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+
+}
+
+.register form input{
+    margin-left: 100px;
+    width: 300px;
+}
+.register form label{
+    margin-left: 100px;
+}
+.register form button{
+    margin-left: 210px;
+    border-radius: 8px;
+    background-color: rgb(106, 184, 106);
+}
+
+
+/* sign in */
+
+.registerr{
+    
+    width: 500px;
+    height: 240px;
+    background-color: rgb(161, 219, 161);
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 8px;
+   
+
+}
+.registerr p{
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+.registerr p a{
+    text-decoration: none;
+}
+.sign {
+    color: honeydew;
+    text-align: center;
+    font-size: 2rem;
+}
+.sigin{
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+
+}
+
+.registerr form input{
+    margin-left: 100px;
+    width: 300px;
+}
+.registerr form label{
+    margin-left: 100px;
+}
+.registerr form button{
+    margin-left: 210px;
+    border-radius: 8px;
+    background-color: rgb(106, 184, 106);
+}
+
+/* district description */
+
+.description{
+    margin-top: 50px;
+    padding: 30px 30px 0 50px;
+}
+.description p{
+     margin-left: 300px;
+}
+ .image{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 50PX;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ .image .images{
+    width: 400px;
+    height: 250px;
+    align-items: inherit;
+}
+.card-text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.card-title{
+    color: white;
+}
